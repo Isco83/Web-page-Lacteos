@@ -1,0 +1,119 @@
+body {
+    background-color: rgb(255, 255, 255);
+}
+
+.logo_dlc img {
+    margin: 1px 1px 1px 1px;
+}
+
+.navidad img {
+    margin-left: 100px;
+
+}
+
+
+
+.busqueda {
+    margin-left: 1120px;
+    margin-top: -42px;
+}
+
+.barnav-izq ul {
+    list-style-type: none;
+    border-radius: 5px;
+    margin-bottom:10px;
+    margin-top: -200px;
+    margin-left: 180px;
+    padding: 0px;
+    overflow: hidden;
+    background-color: rgb(59, 163, 128);
+  }
+  
+  .barnav-izq li {
+    float: left;
+    color: blueviolet;
+  }
+  
+  .barnav-izq a {
+    display: block;
+    color: white;
+    text-align: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+ .barnav-izq li a:hover {
+    background-color: rgb(21, 119, 45);
+    border-radius: 5px;
+  }
+
+  .año {
+    margin-left: 20px;
+    margin-top: 90px;
+
+    color: rgb(224, 0, 0);
+    font-family:'Christian Sunday';
+    font-size: 45px;
+        } 
+
+  .vacas_historia img {
+    margin-left: 800px;
+    margin-right: 20px;
+    margin-top: -700px;
+    border-radius: 30px;
+    
+  }
+
+  section p {
+      font-size: 23px;
+      margin-left: 27px;
+      font-family:'Typo Round Demo';
+
+  }
+
+  .texto1 {
+    font-style: inherit;
+    font-size: 28px;
+    font-family:'Typo Round Demo';
+  }
+
+  .button_historia {
+    background-color:rgb(59, 163, 128);
+    color: antiquewhite;
+    font-size: 30px;
+    margin-left: 20px;
+    font-family: 'Typo Round Demo';
+    border-radius: 10px;
+    border-color: rgb(59, 163, 128);
+    border: outset;
+    
+  }
+
+  .button_favorito  {
+    background-color: rgb(59, 163, 128);
+    color: antiquewhite;
+    font-size: 32px;
+    font-family: 'Typo Round Demo';
+    margin-top: 10px;
+    margin-left: 1010px;   
+    border-radius: 30px;
+    border: outset;
+
+  }
+
+  .productos_img {
+    margin-top: px;
+    border-radius: 30px;
+
+  }
+
+ 
+
+  .texto2 h2 {
+    margin-left: 1000px;
+    font-family: 'Typo Round Demo';
+    font-size: 32px;
+    margin-bottom: 30px;
+  }
+
