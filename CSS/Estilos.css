@@ -79,27 +79,36 @@ body {
   }
 
   .button_historia {
-    background-color:rgb(59, 163, 128);
-    color: antiquewhite;
-    font-size: 30px;
     margin-left: 20px;
-    font-family: 'Typo Round Demo';
+    background-color: rgb(59, 163, 128);
     border-radius: 10px;
-    border-color: rgb(59, 163, 128);
+    font-size: 28px;
+    color: #FFFFFF;
+    font-family: 'Typo Round Demo';
     border: outset;
+    padding: 5px;
+    text-align:center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;  
     
   }
 
-  .button_favorito  {
-    background-color: rgb(59, 163, 128);
-    color: antiquewhite;
-    font-size: 32px;
-    font-family: 'Typo Round Demo';
-    margin-top: 10px;
-    margin-left: 1010px;   
-    border-radius: 30px;
-    border: outset;
-
+  .button_favorito {
+  background-color: rgb(59, 163, 128);
+  border-radius: 10px;
+  font-size: 28px;
+  color: #FFFFFF;
+  font-family: 'Typo Round Demo';
+  border: outset;
+  padding: 5px;
+  text-align:center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+    
   }
 
   .productos_img {
