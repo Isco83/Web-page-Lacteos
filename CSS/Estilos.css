@@ -57,7 +57,7 @@ body {
 
   .vacas_historia img {
     position: relative;
-    top: -600px; left: 800px;
+    top: -540px; left: 800px;
     
   }
 
@@ -66,6 +66,8 @@ body {
       top: -180px; left: 20px;
       font-size: 23px;
       font-family:'Typo Round Demo';
+      text-align: justify; 
+      text-justify: auto;
 
   }
 
@@ -75,11 +77,12 @@ body {
     font-style: inherit;
     font-size: 28px;
     font-family:'Typo Round Demo';
+    text-align: justify;
   }
 
   .button_historia {
     position: relative;
-    top: 50px; left: 25px; 
+    top: -150px; left: 20px; 
     background-color: rgb(59, 163, 128);
     border-radius: 10px;
     font-size: 28px;
@@ -96,23 +99,26 @@ body {
   }
 
   .button_favorito {
-  background-color: rgb(59, 163, 128);
-  border-radius: 10px;
-  font-size: 28px;
-  color: #FFFFFF;
-  font-family: 'Typo Round Demo';
-  border: outset;
-  padding: 5px;
-  text-align:center;
-  transition-duration: 0.4s;
-  text-decoration: none;
-  overflow: hidden;
-  cursor: pointer;
+    position: relative;
+    top: -230px; left: 1020px;
+    background-color: rgb(59, 163, 128);
+    border-radius: 10px;
+    font-size: 28px;
+    color: #FFFFFF;
+    font-family: 'Typo Round Demo';
+    border: outset;
+    padding: 5px;
+    text-align:center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
     
   }
 
   .productos_img {
-    
+    position: relative;
+    top: -540px; left: 20px;
     border-radius: 30px;
 
   }
@@ -120,9 +126,15 @@ body {
  
 
   .texto2 h2 {
-    
+    position: relative;
+    top: -900px; left: 1020px;
     font-family: 'Typo Round Demo';
-    font-size: 32px;
+    font-size: 28px;
+    text-align: justify;
     
+  }
+
+  .texto2 span {
+    font-size: 50px;
   }
 
