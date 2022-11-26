@@ -34,10 +34,10 @@ header {
     background-color: rgb(245, 245, 245);
 }
 
-header .logo {
+.logo img {
     display: flex;
     flex-direction: left;
-    width:30%;
+    width: 10%;
     
     
 }
