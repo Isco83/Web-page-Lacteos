@@ -26,47 +26,46 @@ ul {list-style: none;}
 }
 
 .container {
-    max-width: 1400px;
     margin: auto;
-}
-
-header {
-    background-color: rgb(245, 245, 245);
-}
-
-.logo img {
-    display: flex;
-    flex-direction: left;
-    width: 10%;
-    
-    
+    max-width: 1200px;   
 }
 
 header .container {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-left: 30px;
-    align-items: center;
+    justify-content: space-between;
 }
 
-header nav {
-    display:flex;
-    flex-direction: column;
-    text-align: center center;
+header .logo {
     
+
 }
 
-
-header a {
-    padding: 5px 12px;
-    text-decoration: none;
-    font-weight: bold;
-    color: black;
+.container nav {
+    display: flex;
+    flex-direction: column;
     text-align: center;
+    padding-bottom: 25px;
+    padding-top: 40px;    
 }
 
-header a:hover {
-    color: blueviolet;
-    font-family: 'gilroy';
+.container a {
+    text-decoration: none;
+    padding: 5px 12px;
+    font-family:sans-serif,'Quicksand';
+    font-size: 1em;
+    color: rgb(35, 99, 35);
+}
+
+.container a:hover {
+    color:whitesmoke;
+    background-color: blueviolet;
+    border-radius: 40px; 
+}
+
+.container_searh {
+    position: relative;
+    bottom: 200px;
+    padding-bottom: 10px;
 }
